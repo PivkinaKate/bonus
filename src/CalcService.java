@@ -1,7 +1,7 @@
 public class CalcService {
-    public int miles(int price, int constant) {
+    public int miles(int price) {
         int result;
-        result = price / constant;
+        result = price / 20;
         return result;
 
     }
